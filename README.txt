@@ -32,6 +32,14 @@ loklak. With loklak you can do:
 
 - ant (just this, type "ant" - without quotes - and hit enter)
 
+*** I do not have ant installed, How can I install it ?
+
+- Mac OS X Systems
+	- brew update
+	- brew install ant
+
+- Ubuntu
+	- sudo apt-get install ant
 
 *** How do I run loklak?
 
@@ -40,6 +48,11 @@ loklak. With loklak you can do:
 - open http://localhost:9100 in your browser
 - to shut down loklak, run bin/stop.sh
 
+*** What can I do once I install loklak ?
+
+The data can be requested with API calls to the localhost as
+	- curl -X GET http://localhost:9100/api/search.json\?q\=<search_query_here>
+		- Replace the <search_query_here> with the string you're looking for.
 
 *** Where can I find more information and documentation
 
